@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>carlin cheio de odio lição</title>
+   
+</head>
+<body>
+   
+    <header>
+        
+        <h1 id="titulo-principal"> lição </h1>
+
+    </header>
+    
+    <main>
+
+    <section class="questões">
+        
+        <h2>perguntas e respostas </h2>
+
+        <div>
+        <ul>
+
+            <h3>Como funciona a regra da cascata no CSS?</h3>
+            <p> R: No CSS, a cascata define qual estilo tem prioridade, considerando a origem, a especificidade e a ordem. IDs têm mais peso que classes, que têm mais peso que tags, e !important sobrepõe tudo.</p>
+            
+            <h3>O que é especificidade e qual a diferença entre a especificidade do seletor pela tag, seletor pela classe e seletor pelo id?</h3>
+            <p>R: A especificidade é o que define qual estilo “ganha” quando há conflito no CSS. Regras aplicadas por tag têm o menor peso, por classe têm um peso maior e por ID têm o maior peso de todos. Se os pesos forem iguais, o navegador aplica a regra que estiver escrita por último no código.</P>
+            
+            <h3>Explique a combinação de seletores, mostrando a combinação com espaço .primeiro h1, a combinação de filho .primeira > h1, a combinação de soma .primeira h1 + h1.</h3>
+            <p>R: A combinação de seletores no CSS ajuda a indicar exatamente onde aplicar o estilo. O espaço, como em .primeiro h1, estiliza qualquer h1 dentro de .primeiro. O > pega só o h1 que é filho direto. Já o + estiliza o h1 que vem logo depois de outro h1 no mesmo bloco.</P>
+        
+            <h3>Explique o funcionamento das pseudo-classes: first-child, last-child, nth-child, nth-of-type</h3>
+            <p>R: As pseudo-classes permitem selecionar elementos com base na sua posição dentro do pai. :first-child aplica o estilo ao primeiro filho de um elemento, e :last-child ao último filho. :nth-child(n) seleciona o filho de acordo com a posição (por exemplo, 2 para o segundo ou 2n para todos os pares). Já :nth-of-type(n) funciona parecido, mas conta apenas os elementos do mesmo tipo, ignorando outros elementos diferentes no mesmo pai.</P>
+       
+            <h3>Explique as diferenças entre display inline e display block, inclusive as propriedades que podem ser aplicadas a um que não se aplicam ao outro.</h3>
+            <p>R: O display inline faz o elemento ocupar só o espaço do conteúdo, sem quebrar linha, e não permite definir altura ou largura. O display block ocupa a linha inteira, quebra linha e permite controlar altura, largura, margens e padding. Inline é usado para texto ou pequenos elementos, e block para blocos que organizam a página.</P>
+
+            <h3>Quais elementos são por padrão display inline e quais são display block?</h3>
+            <p>R: Inline são elementos que ficam na mesma linha do conteúdo, como span, a, strong e em. Block são elementos que ocupam a largura toda da página e quebram linha, como div, p, section, h1 a h6, ul e ol. Em resumo, inline é para pequenos trechos de texto ou links, e block para blocos que estruturam a página.</p>
+           
+            <h3>Explique o serventia das propriedades margin, padding e border, bem como TODAS as opções possíveis de shorthand (1 valor, 2 valores, 3 valores e 4 valores), os sufixos: block, inline, top, bottom, left e right.</h3>
+            <p> R: As propriedades margin, padding e border controlam o espaçamento e o contorno dos elementos. A margin cria espaço fora do elemento, o padding cria espaço dentro, entre o conteúdo e a borda, e a border é a linha que contorna o elemento. É possível usar shorthand para definir todos os lados de uma vez: um valor para todos, dois valores para vertical e horizontal, três valores para top, horizontal e bottom, e quatro valores para top, right, bottom e left. Também existem formas de aplicar só a um lado específico (-top, -bottom, -left, -right) ou ao eixo vertical (-block) e horizontal (-inline). Essas propriedades ajudam a organizar os elementos, criar espaçamento e deixar o layout visualmente equilibrado.</p>
+        
+            <h3>Mostre a utilização da propriedade box-sizing: border-box</h3>
+            <p>R: A propriedade box-sizing: border-box faz com que o tamanho total de um elemento já inclua o padding e a border no cálculo da largura e altura, facilitando o controle do layout sem precisar fazer contas extras.</p>
+            
+            
+        </ul>
+       </div>
+   
+    <div>
+
+         <a href="#titulo-principal"> Início</a>
+
+ </div>
+</section>
+</main>
+ </body>
+</html>
+
+
+
+
+
+</body>
+</html>
+
+
